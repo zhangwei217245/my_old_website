@@ -1,0 +1,27 @@
+# Site navigation links
+
+#- title: Getting Started
+#  url: /getting-started/
+#  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+#  image: 400x250.gif
+
+
+- title: Blog Posts
+  url: /articles/
+  excerpt: ""
+  image: writing_400x250.gif
+
+- title: Research
+  url: /research/
+  excerpt: ""
+  image: research_400x250.gif
+
+- title: Portfolio
+  url: /portfolio/
+  excerpt: ""
+  image: code_400x250.gif
+
+- title: About Me
+  url: /about/
+  excerpt: ""
+  image: macafe_400x250.gif
