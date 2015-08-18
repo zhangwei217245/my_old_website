@@ -47,20 +47,22 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.4)
-    octopress (3.0.0.rc.15)
-      jekyll (~> 2.0)
+    octopress (3.0.11)
+      jekyll (>= 2.0)
       mercenary (~> 0.3.2)
       octopress-deploy
-      octopress-docs
+      octopress-escape-code (~> 2.0)
+      octopress-hooks (~> 2.0)
+      redcarpet (~> 3.0)
       titlecase
     octopress-deploy (1.0.0)
       colorator
       octopress-docs
-    octopress-docs (0.0.9)
+    octopress-docs (0.0.15)
       jekyll (~> 2.0)
-      octopress-escape-code (~> 1.0)
+      octopress-escape-code (~> 2.0)
       octopress-hooks (~> 2.0)
-    octopress-escape-code (1.0.2)
+    octopress-escape-code (2.0.6)
       octopress-hooks (~> 2.0)
     octopress-hooks (2.2.1)
       jekyll (~> 2.0)
@@ -90,5 +92,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 2.4.0)
   jekyll-sitemap (~> 0.6.1)
-  octopress (~> 3.0.0.rc.12)
+  octopress (~> 3.0)
   sass
+
+BUNDLED WITH
+   1.10.6
