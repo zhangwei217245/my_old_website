@@ -6,6 +6,11 @@
 #  image: 400x250.gif
 
 
+- title: About Me
+  url: /about/
+  excerpt: ""
+  image: macafe_400x250.gif
+
 - title: Blog Posts
   url: /articles/
   excerpt: ""
@@ -21,7 +26,3 @@
   excerpt: ""
   image: code_400x250.gif
 
-- title: About Me
-  url: /about/
-  excerpt: ""
-  image: macafe_400x250.gif
