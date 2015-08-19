@@ -28,6 +28,23 @@
 }
 
 /*
+   Inverse button .btn-inverse2
+   ========================================================================== */
+
+.btn-inverse2 {
+	@extend .btn;
+	background-color: $text-color;
+	color: $white;
+	&:visited,
+	&:active {
+		color: $white;
+	}
+	&:hover {
+		color: $text-color;
+		background-color: $white;
+	}
+}
+/*
    Inverse button .btn-inverse
    ========================================================================== */
 
