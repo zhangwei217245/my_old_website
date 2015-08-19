@@ -15,8 +15,8 @@ ads: false
 
 Hi, everyone,
 
-My name is Wei Zhang, a software engineer who comes from China. I use "X-Spirit" as my nickname on the Internet. Now I'm studying in <a href="http://www.ttu.edu" target="_blank">Texas Tech University</a>.
+My name is Wei Zhang, a software engineer from China. I use "X-Spirit" as my nickname on the Internet. Now I'm studying in <a href="http://www.ttu.edu" target="_blank">Texas Tech University</a>.
 
-Previously, I worked as a software engineer for almost 6 years, during which I experienced a lot in building large-scale distributed systems, writing programs in Java and Nodejs.
+Previously, I worked as a software engineer for over 6 years, during which I experienced a lot in building large-scale distributed systems, writing programs in Java and Nodejs.
 
 

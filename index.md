@@ -9,12 +9,12 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Java Software Engineer</h2>
-  <p class="post-excerpt">Six years of Java programming experience in Java Web Development, Restful Web Services and Distributed Data Services. Proficient in Core Java, Spring, UML, XML, Caching and Messaging.</p>
+  <p class="post-excerpt"><span style="font-size:28px">6</span> years of Java programming experience in Java Web Development, Restful Web Services and Distributed Data Services. Proficient in Core Java, Spring, UML, XML, Caching and Messaging.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
   <h2 class="post-title">Large-scale Backend System Experience</h2>
-  <p class="post-excerpt">Three years of work experience in Chinese leading social media - <a href="http://www.weibo.com/" target="_blank">Weibo</a>, the Chinese version of twitter. Extensive experience building and owning large-scale, geogaphically distributed backend systems.</p>
+  <p class="post-excerpt"><span style="font-size:28px">3</span> years of work experience in Chinese leading social media - <a href="http://www.weibo.com/" target="_blank">Weibo</a>, the Chinese version of twitter. Extensive experience building and owning large-scale, geogaphically distributed backend systems.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
