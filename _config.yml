@@ -30,9 +30,9 @@ owner:
   avatar: bio-photo.jpg # 160x160 px image for author byline
   google:
     plus: +zhangwei217245
-    ad-client:
-    ad-slot:
-  disqus-shortname:
+    ad-client: ca-pub-4885265773337082
+    ad-slot: 9823811259
+  disqus-shortname: zhangwei217245
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
