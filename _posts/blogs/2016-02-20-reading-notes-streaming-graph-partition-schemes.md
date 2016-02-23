@@ -9,7 +9,7 @@ image:
   thumb: "GP480_250.jpg" 
 tags: [Graph Partitioning]
 comments: true
-ads: true
+ads: false
 date: 2016-02-20T15:39:59-06:00
 ---
 
