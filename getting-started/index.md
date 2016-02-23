@@ -2,7 +2,7 @@
 layout: article
 title: "Getting Started with Skinny Bones"
 date: 2014-06-25T13:57:25-04:00
-modified:
+modified: 2016-01-19
 excerpt:
 tags: []
 image:
@@ -18,7 +18,7 @@ The basics for getting Skinny Bones setup.
 
 ## Installation
 
-Skinny Bones requires [Jekyll](http://jekyllrb.com/) 2+. Make sure to run `gem update jekyll` if you aren't on the latest version or `gem install jekyll` if this is your first time installing it.
+Skinny Bones requires [Jekyll](http://jekyllrb.com/) 3.0. Make sure to run `bundle update` if you aren't on the latest version or `bundle install` if this is your first time installing it.
 
 If you are creating a new Jekyll site using Skinny Bones following these steps:
 
@@ -40,7 +40,7 @@ If you want to use Skinny Bones with an existing Jekyll site follow these steps:
 
 ## Running Jekyll
 
-If `jekyll build` and `jekyll serve` throw errors you may have to run Jekyll with `bundled exec` instead.
+The preferred method for running Jekyll is with `bundle exec`, but if you're willing to deal gem conflicts feel free to go cowboy with a `jekyll build` or `jekyll serve`.
 
 > In some cases, running executables without bundle exec may work, if the executable happens to be installed in your system and does not pull in any gems that conflict with your bundle.
 >
@@ -83,7 +83,7 @@ skinny-bones-jekyll-master
 |   ├── _layout.scss                    # structure and placement, the bulk of the design
 |   ├── _mixins.scss                    # custom mixins
 |   ├── _notices.scss                   # notice blocks
-|   ├── _pygments.scss                  # Pygments.rb syntax highlighting
+|   ├── _syntax.scss                    # Pygments.rb syntax highlighting
 |   ├── _reset.scss                     # normalize and reset elements
 |   ├── _sliding-menu.scss              # sliding menu overlay
 |   ├── _variables.scss                 # global colors and fonts
@@ -158,6 +158,25 @@ url:
 {% endhighlight %}
 
 [^protocol]: If you decide to use a protocol-relative URL know that it will most likely break sitemap.xml that the Jekyll-Sitemap gem creates. If a valid sitemap matters to you I'd suggest [creating your own sitemap.xml](http://davidensinger.com/2013/03/generating-a-sitemap-in-jekyll-without-a-plugin/) and apply some Liquid logic to prepend links to posts/pages with `https:`.
+
+#### Site Locale
+
+The default is `en` for English. `site.locale` is used to apply localized text for a few key strings.
+
+---
+
+### Localization
+
+The theme supports localized text through a data file for the following text strings:
+
+* Table of contents headline --- "Overview"
+* Slide-out menu title --- "Table of Contents"
+* Author byline --- "Written by"
+* Post/page date --- "Updated"
+
+To update or add other translations edit `_data/messages.yml` and then set the appropriate `locale` in `_config.yml`. For example to switch from English to German replace `locale: en` with `locale: de` or `locale: de_DE`.
+
+Feel free to submit a pull request for additional languages and any other parts of the theme that could be localized.
 
 ---
 
@@ -271,7 +290,7 @@ image:
 
 For longer posts you may find it beneficial to include a table of contents menu. Add `{% raw %}{% include toc.html %}{% endraw %}` where you'd like the TOC to appear and Kramdown will take care of the rest by converting all headlines to list of links.
 
-If you need to alter the *Overview* headline text that appears at the top of the list, you can modify it in `main.js`.
+If you need to alter the *Overview* headline text that appears at the top of the list, you can do so by editing `_data/messages.yml`.
 
 #### Google AdSense
 
@@ -333,7 +352,7 @@ If you'd prefer a less visual list of posts use `{{ "{% include post-list.html "
 While completely optional, I've included Octopress and some starter templates to automate the creation of new posts and pages. To take advantage of it start by installing the [Octopress](https://github.com/octopress/octopress) gem if it isn't already. It is safe to remove Octopress from your Gemfile if you have no need for it.
 
 {% highlight bash %}
-$ gem install octopress --pre
+$ gem install octopress
 {% endhighlight %}
 
 ### New Post

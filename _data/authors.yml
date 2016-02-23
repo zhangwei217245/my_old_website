@@ -1,20 +1,20 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
+Zhang_Wei:
+  name: Zhang Wei
+  web: http://zhangwei217245.github.io
+  email: zhangwei217245@gmail.com
+  bio: "Think wisely."
   avatar: bio-photo.jpg
-  twitter: extravagantman
+  twitter: zhangwei217245
   google:
-    plus: +BillyRick
+    plus: +zhangwei217245
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
-  avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: +CorneliusFiddlebone
+#cornelius_fiddlebone:
+#  name: Cornelius Fiddlebone
+#  email: cornelius@thewhip.com
+#  bio: "I ordered what?"
+#  avatar: bio-photo.jpg
+#  twitter: rhymeswithsackit
+#  google:
+#    plus: +CorneliusFiddlebone

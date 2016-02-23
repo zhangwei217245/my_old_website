@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "About X-Spirit"
+title: "About"
 date: 2014-06-02T09:44:20-04:00
-modified: 2015-08-18T14:56:44-04:00
-excerpt: "Something about Wei Zhang"
+modified: 2014-08-27T14:56:44-04:00
+excerpt: "This is the Skinny Bones about page."
 image:
   feature:
   teaser:
@@ -12,11 +12,6 @@ share: false
 ads: false
 ---
 
+This is a work in progress.
 
-Hi, everyone,
-
-My name is Wei Zhang, a software engineer from China. I use "X-Spirit" as my nickname on the Internet. Now I'm studying in <a href="http://www.ttu.edu" target="_blank">Texas Tech University</a>.
-
-Previously, I worked as a software engineer for over 6 years, during which I experienced a lot in building large-scale distributed systems, writing programs in Java and Nodejs.
-
-
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
