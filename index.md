@@ -19,7 +19,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Ph.D Student in TTU</h2>
-  <p class="post-excerpt"><span style="font-size:22px">C</span>urrently doing thesis on Graph Computing in <a href="http://discl.cs.ttu.edu" target="_blank">DISCL</a> with <a href="http://www.myweb.ttu.edu/yonchen/" target="_blank">Dr. Chen</a> and <a href="https://sites.google.com/site/dongdai13/" target="_blank">Dr. Dai</a>, especially focus on the Scalability of Graph Data Storage.</p>
+  <p class="post-excerpt"><span style="font-size:22px">C</span>urrently doing thesis on Graph Computing in <a href="http://discl.cs.ttu.edu" target="_blank">DISCL</a> with <a href="http://www.myweb.ttu.edu/yonchen/" target="_blank">Dr. Chen</a>.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
