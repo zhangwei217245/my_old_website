@@ -24,3 +24,7 @@ linker = "gcc"
 ```
 
 Notice that the target may vary according to your own platform. Also, the linker option may change if you use another system-wide compiling toolchain.
+
+Here is a link on GitHub:
+
+(https://github.com/rust-lang/cargo/issues/4741)
