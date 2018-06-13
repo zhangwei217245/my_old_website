@@ -14,7 +14,7 @@ image:
 
 <div class="tile">
   <h2 class="post-title">Distributed System Experience</h2>
-  <p class="post-excerpt"><span style="font-size:22px">T</span>hree years of work experience in Chinese leading social media - <a href="http://www.weibo.com/" target="_blank">Weibo</a>, the Chinese version of twitter.</p> <p class="post-excerpt"><span style="font-size:22px">E</span>xtensive experience building and owning large-scale, geogaphically distributed backend systems.</span></p>
+  <p class="post-excerpt"><span style="font-size:22px">T</span>hree years of work experience in Chinese leading social media - <a href="http://www.weibo.com/" target="_blank">Weibo</a>, the Chinese version of twitter.</p> <p class="post-excerpt"><span style="font-size:22px">E</span>xtensive experience building and owning large-scale, geogaphically distributed backend systems.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
