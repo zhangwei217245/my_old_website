@@ -27,4 +27,4 @@ Notice that the target may vary according to your own platform. Also, the linker
 
 Here is a link on GitHub:
 
-(https://github.com/rust-lang/cargo/issues/4741)
+https://github.com/rust-lang/cargo/issues/4741
