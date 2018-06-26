@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.org/zhangwei217245/zhangwei217245.github.io.svg?branch=master)](https://travis-ci.org/zhangwei217245/zhangwei217245.github.io)
+
 # Skinny Bones Jekyll Starter
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
