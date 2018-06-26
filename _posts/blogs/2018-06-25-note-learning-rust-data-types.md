@@ -1,8 +1,8 @@
 ---
 layout: article
 title: Note: Learning Rust - Data Types
-modified:2018-06-25T16:51:58-07:00
-categories: Rust
+modified: 2018-06-25T16:51:58-07:00
+categories: blogs
 excerpt:
 tags: [Rust, Language]
 image:
@@ -76,4 +76,3 @@ Rust has two primitive compound types : tuples and arrays
     ```
         let a = arr[0];
     ```
-    

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Fix Rust Compilation Problem Caused by Non-default Linker
-modified:
+modified: 2018-06-13T16:51:58-07:00
 categories: blogs
 excerpt:
 tags: [Rust, Compilation]
