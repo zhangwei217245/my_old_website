@@ -9,7 +9,7 @@ url: #//mmistakes.github.io/skinny-bones-jekyll
 
 # Jekyll configuration
 
-remote_theme: "mmistakes/minimal-mistakes"
+#remote_theme: "mmistakes/minimal-mistakes"
 sass:
   sass_dir: _sass
   style: compressed
@@ -20,7 +20,7 @@ highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
 
 
 # Octopress configuration

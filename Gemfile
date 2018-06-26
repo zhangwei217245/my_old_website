@@ -1,9 +1,9 @@
 # Skinny Bones Gemfile
 source "https://rubygems.org"
 
-# gem "jekyll"
-# gem "jekyll-sitemap"
-# gem "jekyll-gist"
+gem "jekyll"
+gem "jekyll-sitemap"
+gem "jekyll-gist"
 # gem "jekyll-feed"
 # gem 'github-pages'
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
