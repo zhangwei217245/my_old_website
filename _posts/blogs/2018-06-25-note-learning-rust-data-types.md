@@ -10,6 +10,7 @@ feature:
 teaser:
 thumb:
 date: 2018-06-13T15:09:56-07:00
+toc: true
 ---
 
 Rust is a strongly-typed, statically-typed programming language.
