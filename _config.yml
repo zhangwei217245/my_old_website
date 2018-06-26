@@ -9,6 +9,7 @@ url: #//mmistakes.github.io/skinny-bones-jekyll
 
 # Jekyll configuration
 
+remote_theme: "mmistakes/minimal-mistakes"
 sass:
   sass_dir: _sass
   style: compressed
